@@ -1,0 +1,19 @@
+{
+  "name": "study_parcel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://git:git@github.com/hmu332233/study.parcel.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hmu332233/study.parcel/issues"
+  },
+  "homepage": "https://github.com/hmu332233/study.parcel#readme"
+}
