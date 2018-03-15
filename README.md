@@ -17,4 +17,16 @@ Setting up a professional React project with Parcel as a code bundler Edit
 - Typography.js
 - Build for production
 
+
+## install
+```bash
+$ npm install -g parcel-bundler
+$ npm install --save react react-dom
+$ npm install --save-dev babel-preset-env babel-preset-react
+```
+
+## use
+
+```bash
+$ npm start # $ parcel index.html
 ```
