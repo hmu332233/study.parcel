@@ -24,6 +24,8 @@ $ npm install -g parcel-bundler
 $ npm install --save react react-dom
 $ npm install --save-dev babel-preset-env babel-preset-react
 $ npm install --save-dev postcss-modules
+$ npm install node-sass
+$ npm install --save-dev autoprefixer
 ```
 
 ## use
@@ -49,6 +51,15 @@ parcel이 알아채고 자동으로 babel을 이용해서 해준다. parcel의 �
 ```
 // .postcssrc
 {
-  "modules": true
+  "modules": true  => 모듈 단위로 css를 관리해줌
+  "plugins": {
+    "autoprefixer": {  => 브라우저 prefix를 다 처리해줌
+      "browsers": [  => 어떤 브라우저를 지원하고 싶은지
+        "> 1%",  => 글로벌 마켓 쉐어에 1% 이상인 브라우저를 지원
+        "Last 2 versions",  => 해당 브라우저의 최근 2개 버전을 지원
+        "IE 10" => IE 10 지원
+      ]
+    }
+  }  
 }
 ```
