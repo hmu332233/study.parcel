@@ -23,13 +23,7 @@ Setting up a professional React project with Parcel as a code bundler Edit
 $ npm install -g parcel-bundler
 $ npm install --save react react-dom
 $ npm install --save-dev babel-preset-env babel-preset-react
-```
-
-```
-// .babelrc
-{
-  "presets": ["env", "react"]
-}
+$ npm install --save-dev postcss-modules
 ```
 
 ## use
@@ -37,4 +31,24 @@ $ npm install --save-dev babel-preset-env babel-preset-react
 ```bash
 $ parcel index.html => $ npm start
 ```
-- `.babelrc`가 있다면 babel을 쓰는구나 라고 parcel이 알아채고 자동으로 babel을 이용해서 해준다. parcel의 편리함!
+
+## js 변환
+- add file
+```
+// .babelrc
+{
+  "presets": ["env", "react"]
+}
+```
+- `.babelrc`가 있다면 babel을 쓰는구나 라고  
+parcel이 알아채고 자동으로 babel을 이용해서 해준다. parcel의 편리함!
+- 즉 babel만 공부하면 된다
+
+## css 변환
+- add file
+```
+// .postcssrc
+{
+  "modules": true
+}
+```
