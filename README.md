@@ -25,8 +25,16 @@ $ npm install --save react react-dom
 $ npm install --save-dev babel-preset-env babel-preset-react
 ```
 
+```
+// .babelrc
+{
+  "presets": ["env", "react"]
+}
+```
+
 ## use
 
 ```bash
-$ npm start # $ parcel index.html
+$ parcel index.html => $ npm start
 ```
+- `.babelrc`가 있다면 babel을 쓰는구나 라고 parcel이 알아채고 자동으로 babel을 이용해서 해준다. parcel의 편리함!

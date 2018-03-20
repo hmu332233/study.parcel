@@ -15,5 +15,14 @@
   "bugs": {
     "url": "https://github.com/hmu332233/study.parcel/issues"
   },
-  "homepage": "https://github.com/hmu332233/study.parcel#readme"
+  "homepage": "https://github.com/hmu332233/study.parcel#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1"
+  },
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  }
 }
