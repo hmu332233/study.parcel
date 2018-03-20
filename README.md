@@ -63,3 +63,14 @@ parcel이 알아채고 자동으로 babel을 이용해서 해준다. parcel의 �
   }  
 }
 ```
+
+
+## 부록
+- typography.js
+```bash
+$ npm install --save typography
+```
+- js로 css typography를 관리할 수 있다.
+- 여러 테마도 있어서 간단하게 수정 후 사용 가능!
+- `typography.js` 참고
+- [링크](https://kyleamathews.github.io/typography.js/)
